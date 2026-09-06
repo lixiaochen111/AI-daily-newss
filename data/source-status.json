@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-05T03:29:33.590718Z",
+  "generated_at": "2026-09-06T03:30:21.438894Z",
   "sites": [
     {
       "site_id": "official_ai",
       "site_name": "Official AI Updates",
       "ok": true,
-      "item_count": 201,
-      "duration_ms": 3032,
+      "item_count": 192,
+      "duration_ms": 2638,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "AI Breakfast",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 43,
+      "duration_ms": 109,
       "error": "403 Client Error: Forbidden for url: https://r.jina.ai/https://aibreakfast.beehiiv.com/"
     },
     {
       "site_id": "followbuilders",
       "site_name": "Follow Builders",
       "ok": true,
-      "item_count": 45,
-      "duration_ms": 35,
+      "item_count": 29,
+      "duration_ms": 277,
       "error": null
     },
     {
@@ -30,7 +30,7 @@
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 476,
+      "duration_ms": 292,
       "error": null
     },
     {
@@ -38,15 +38,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 338,
+      "duration_ms": 467,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 337,
-      "duration_ms": 13682,
+      "item_count": 335,
+      "duration_ms": 13934,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 1045,
+      "duration_ms": 857,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3036,
-      "duration_ms": 900,
+      "item_count": 3034,
+      "duration_ms": 1409,
       "error": null
     },
     {
       "site_id": "zeli",
       "site_name": "Zeli",
       "ok": true,
-      "item_count": 74,
-      "duration_ms": 1048,
+      "item_count": 56,
+      "duration_ms": 664,
       "error": null
     },
     {
@@ -78,15 +78,15 @@
       "site_name": "AI HubToday",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 5774,
-      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1016)')))"
+      "duration_ms": 35442,
+      "error": "HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Max retries exceeded with url: / (Caused by ReadTimeoutError(\"HTTPSConnectionPool(host='ai.hubtoday.app', port=443): Read timed out. (read timeout=30)\"))"
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
       "ok": true,
       "item_count": 20,
-      "duration_ms": 3348,
+      "duration_ms": 1804,
       "error": null
     },
     {
@@ -94,15 +94,15 @@
       "site_name": "AI HOT",
       "ok": true,
       "item_count": 50,
-      "duration_ms": 941,
+      "duration_ms": 747,
       "error": null
     },
     {
       "site_id": "newsnow",
       "site_name": "NewsNow",
       "ok": true,
-      "item_count": 127,
-      "duration_ms": 3394,
+      "item_count": 126,
+      "duration_ms": 2248,
       "error": null
     },
     {
@@ -111,7 +111,7 @@
       "ok": true,
       "partial_failures": 1,
       "item_count": 29,
-      "duration_ms": 295,
+      "duration_ms": 511,
       "error": "1 feeds failed",
       "feed_count": 3,
       "effective_feed_count": 3,
@@ -127,9 +127,9 @@
     "aihubtoday"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 5069,
-  "items_before_topic_filter": 2378,
-  "items_in_24h": 340,
+  "fetched_raw_items": 5021,
+  "items_before_topic_filter": 2004,
+  "items_in_24h": 215,
   "rss_opml": {
     "enabled": true,
     "path": "configured",
@@ -151,7 +151,7 @@
         "effective_feed_url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "ok": true,
         "item_count": 19,
-        "duration_ms": 126,
+        "duration_ms": 79,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -166,7 +166,7 @@
         "effective_feed_url": "https://venturebeat.com/category/ai/feed/",
         "ok": false,
         "item_count": 0,
-        "duration_ms": 102,
+        "duration_ms": 179,
         "error": "429 Client Error: Too Many Requests for url: https://venturebeat.com/category/ai/feed/",
         "skipped": false,
         "skip_reason": null,
@@ -181,7 +181,7 @@
         "effective_feed_url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
         "ok": true,
         "item_count": 10,
-        "duration_ms": 67,
+        "duration_ms": 253,
         "error": null,
         "skipped": false,
         "skip_reason": null,
@@ -210,6 +210,6 @@
     "effective_result_cap": 20,
     "estimated_max_cost_usd_per_run": 0.1,
     "run_utc_hour": 0,
-    "generated_date_utc": "2026-09-05"
+    "generated_date_utc": "2026-09-06"
   }
 }
